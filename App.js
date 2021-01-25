@@ -1,10 +1,11 @@
 import React from 'react';
-import {Button, ThemeProvider} from 'react-native-elements';
+import {ThemeProvider} from 'react-native-elements';
+import Login from './app/views/login/index';
 
 const App = () => {
   return (
     <ThemeProvider>
-      <Button title="Hey!" />
+      <Login />
     </ThemeProvider>
   );
 };
