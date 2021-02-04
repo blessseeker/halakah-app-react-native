@@ -2,8 +2,7 @@ import React, {Component} from 'react';
 import {StyleSheet, View, ScrollView} from 'react-native';
 
 //import {Header} from '../../header';
-import LoginScreen2 from './screen2';
-import LoginScreen3 from './screen3';
+import LoginScreen from './login';
 
 export default class Login extends Component {
   render() {
@@ -11,8 +10,7 @@ export default class Login extends Component {
       <>
         <View style={styles.container}>
           <ScrollView horizontal pagingEnabled decelerationRate={0.993}>
-            <LoginScreen2 />
-            {/* <LoginScreen3 /> */}
+            <LoginScreen />
           </ScrollView>
         </View>
       </>
