@@ -119,10 +119,10 @@ export default class LoginScreen2 extends Component {
               behavior="position">
               <View style={styles.titleContainer}>
                 <View style={{flexDirection: 'row'}}>
-                  <Text style={styles.titleText}>BEAUX</Text>
+                  <Text style={styles.titleText}>Halakah</Text>
                 </View>
                 <View style={{marginTop: -10, marginLeft: 10}}>
-                  <Text style={styles.titleText}>VOYAGES</Text>
+                  <Text style={styles.titleText}>Apps</Text>
                 </View>
               </View>
               <View style={{flexDirection: 'row'}}>
@@ -318,7 +318,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   loginButton: {
-    backgroundColor: 'rgba(232, 147, 142, 1)',
+    backgroundColor: '#02f042',
     borderRadius: 10,
     height: 50,
     width: 200,
@@ -355,14 +355,17 @@ const styles = StyleSheet.create({
     color: 'white',
     fontSize: 24,
     fontFamily: 'light',
-    backgroundColor: 'transparent',
-    opacity: 0.54,
+    backgroundColor: '#02f042',
+    opacity: 0.8,
+    borderRadius: 10,
+    height: 50,
+    width: 100,
   },
   selectedCategoryText: {
     opacity: 1,
   },
   titleText: {
-    color: 'white',
+    color: '#02f042',
     fontSize: 30,
     fontFamily: 'regular',
   },
